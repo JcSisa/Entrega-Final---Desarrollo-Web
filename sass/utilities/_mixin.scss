@@ -1,0 +1,16 @@
+//con parametros
+
+@mixin margin-btn($px){
+    margin-bottom: $px;
+}
+
+// sin parametros
+@mixin flex{
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+// con/sin parametros
+
