@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* BODY */
 body {
   font-family: "Segoe UI", sans-serif;
@@ -121,6 +122,82 @@ footer {
 
 .redesSociales a:hover {
   transform: scale(1.2);
+=======
+body {
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #212529;
+}
+
+.hero-section {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background: transparent;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.hero-section .textos h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #4E2394;
+}
+
+.card {
+  transition: all 0.4s ease-in-out;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  margin-top: 50px;
+  width: 100%;
+}
+footer .redes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+footer .redes-container a {
+  display: inline-block;
+  color: #4E2394;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+footer .redes-container a i {
+  font-size: 2.5rem;
+  display: block;
+}
+footer .redes-container a:hover {
+  transform: translateY(-5px);
+  color: #6c757d;
+}
+footer p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+>>>>>>> master
 }
 
 /* TABLET */
@@ -163,6 +240,15 @@ footer {
   .grid-lista {
     grid-template-columns: 1fr;
   }
+<<<<<<< HEAD
+=======
+  .hero-section {
+    text-align: center;
+  }
+  .hero-section .textos h1 {
+    font-size: 2.5rem;
+  }
+>>>>>>> master
 }
 
 /*# sourceMappingURL=estilo.css.map */
