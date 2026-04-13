@@ -1,0 +1,17 @@
+// variables
+@use "../utilities/variables" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  // Usamos un color base neutro (blanco o gris muy claro)
+  background-color: #ffffff; 
+  // Usamos la variable de color de texto (asegurate que exista en _variables.scss)
+  color: $text-dark; 
+}

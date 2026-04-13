@@ -1,0 +1,23 @@
+
+// Mixin con parámetros
+@mixin margin-btn($px) {
+    margin-bottom: $px;
+}
+
+// Mixin 
+@mixin flex($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin transition($time: 0.3s) {
+    transition: all $time ease-in-out;
+}
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}

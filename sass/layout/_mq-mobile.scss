@@ -1,0 +1,34 @@
+// variables
+@use "../utilities/variables" as *;
+
+// mixin
+@use "../utilities/mixin" as *;
+
+
+/* CELULAR */
+
+@media (max-width:768px){
+    main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagen{
+        width: 100%;
+    }
+
+    .textos{
+        text-align: center;
+    }
+
+    .grid-lista{
+        grid-template-columns: 1fr;
+    }
+
+
+  .hero-section {
+    text-align: center;
+    .textos h1 { font-size: 2.5rem; }
+  }
+
+}
